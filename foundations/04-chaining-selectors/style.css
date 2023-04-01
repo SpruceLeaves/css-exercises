@@ -1,0 +1,11 @@
+/*adding a space between the class selectors will make css want to select an element with a class of "proportioned" that is a decendant of an element with a class of "avatar"
+without the space, it is selecting an element that has both classes applied to itself*/
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
